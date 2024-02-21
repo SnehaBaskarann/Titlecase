@@ -1,0 +1,28 @@
+﻿@* @{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1>Original Text :
+        @ViewData["OriginalText"] 
+    </h1>
+
+    <h1>
+        @ViewData["TitleCaseText"]
+    </h1>
+    
+    
+</div> *@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Title Case Converter</title>
+</head>
+<body>
+    <h2>Original Text : @ViewData["OriginalText"]</h2>
+    <h2>Title Case Text : @ViewData["TitleCaseText"]</h2>
+</body>
+</html>
